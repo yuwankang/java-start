@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="산술 연산자">
-      <change afterPath="$PROJECT_DIR$/src/operator/Operator2.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="문자열 더하기">
+      <change afterPath="$PROJECT_DIR$/src/operator/Operator3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
+    "Application.Operator3.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.Var2Ex2.executor": "Run",
@@ -63,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Operator2">
+  <component name="RunManager" selected="Application.Operator3">
     <configuration name="Operator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operator.Operator1" />
       <module name="java-start" />
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Var2Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.ex.Var2Ex2" />
+    <configuration name="Operator3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Operator3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.ex.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.ex.VarEx1" />
+    <configuration name="Var2Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable.ex.Var2Ex2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Operator3" />
         <item itemvalue="Application.Operator2" />
         <item itemvalue="Application.Operator1" />
         <item itemvalue="Application.VarEx3" />
         <item itemvalue="Application.Var2Ex2" />
-        <item itemvalue="Application.VarEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705207389446</updated>
-      <workItem from="1705207390480" duration="6603000" />
+      <workItem from="1705207390480" duration="7332000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -196,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705231537895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="문자열 더하기">
+      <option name="closed" value="true" />
+      <created>1705232790126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705232790126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +217,8 @@
     <MESSAGE value="변수 명명 과 규칙" />
     <MESSAGE value="변수 문제풀이" />
     <MESSAGE value="산술 연산자" />
-    <option name="LAST_COMMIT_MESSAGE" value="산술 연산자" />
+    <MESSAGE value="문자열 더하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열 더하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
