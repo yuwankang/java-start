@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="증감 연산자">
-      <change afterPath="$PROJECT_DIR$/src/operator/Comp1.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="비교 연산자">
+      <change afterPath="$PROJECT_DIR$/src/operator/Assign1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Logical1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Logical2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +39,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Comp1.executor": "Run",
+    "Application.Assign1.executor": "Run",
+    "Application.Comp1.executor": "Debug",
+    "Application.Comp2.executor": "Run",
     "Application.HelloJava.executor": "Run",
+    "Application.Logical1.executor": "Run",
+    "Application.Logical2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.OperationEx1.executor": "Run",
+    "Application.OperationEx2.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
@@ -66,9 +77,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Comp2">
-    <configuration name="Comp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Comp1" />
+  <component name="RunManager" selected="Application.OperationEx3">
+    <configuration name="Assign1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Assign1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Comp2" />
+    <configuration name="Logical2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Logical2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator3" />
+    <configuration name="OperationEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="operator.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorAdd1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd1" />
+    <configuration name="OperationEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="operator.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorAdd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd2" />
+    <configuration name="OperationEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="operator.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Comp2" />
-        <item itemvalue="Application.Comp1" />
-        <item itemvalue="Application.OperatorAdd2" />
-        <item itemvalue="Application.OperatorAdd1" />
-        <item itemvalue="Application.Operator3" />
+        <item itemvalue="Application.OperationEx3" />
+        <item itemvalue="Application.OperationEx2" />
+        <item itemvalue="Application.OperationEx1" />
+        <item itemvalue="Application.Assign1" />
+        <item itemvalue="Application.Logical2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705207389446</updated>
-      <workItem from="1705207390480" duration="8728000" />
+      <workItem from="1705207390480" duration="10673000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -223,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705237918670</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="비교 연산자">
+      <option name="closed" value="true" />
+      <created>1705238412662</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705238412662</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +257,8 @@
     <MESSAGE value="문자열 더하기" />
     <MESSAGE value="연산자 우선순위" />
     <MESSAGE value="증감 연산자" />
-    <option name="LAST_COMMIT_MESSAGE" value="증감 연산자" />
+    <MESSAGE value="비교 연산자" />
+    <option name="LAST_COMMIT_MESSAGE" value="비교 연산자" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
