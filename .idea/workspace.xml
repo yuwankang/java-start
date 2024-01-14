@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="연산자 우선순위">
-      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="증감 연산자">
+      <change afterPath="$PROJECT_DIR$/src/operator/Comp1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Comp1.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
@@ -67,9 +66,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OperatorAdd2">
-    <configuration name="Operator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator1" />
+  <component name="RunManager" selected="Application.Comp2">
+    <configuration name="Comp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Comp1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator2" />
+    <configuration name="Comp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Comp2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Comp2" />
+        <item itemvalue="Application.Comp1" />
         <item itemvalue="Application.OperatorAdd2" />
         <item itemvalue="Application.OperatorAdd1" />
         <item itemvalue="Application.Operator3" />
-        <item itemvalue="Application.Operator2" />
-        <item itemvalue="Application.Operator1" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705207389446</updated>
-      <workItem from="1705207390480" duration="8427000" />
+      <workItem from="1705207390480" duration="8728000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -216,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705233237606</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="증감 연산자">
+      <option name="closed" value="true" />
+      <created>1705237918670</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705237918670</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +237,8 @@
     <MESSAGE value="산술 연산자" />
     <MESSAGE value="문자열 더하기" />
     <MESSAGE value="연산자 우선순위" />
-    <option name="LAST_COMMIT_MESSAGE" value="연산자 우선순위" />
+    <MESSAGE value="증감 연산자" />
+    <option name="LAST_COMMIT_MESSAGE" value="증감 연산자" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
