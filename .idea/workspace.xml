@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="if문과 else if문">
-      <change afterPath="$PROJECT_DIR$/src/cond/Switch1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/Switch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/Switch3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/Switch4.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="스위치문 공부">
+      <change afterPath="$PROJECT_DIR$/src/cond/CondOp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/CondOp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/CondOpEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/EvenOddEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/ScoreEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +46,13 @@
     "Application.Assign1.executor": "Run",
     "Application.Comp1.executor": "Debug",
     "Application.Comp2.executor": "Run",
+    "Application.CondOp1.executor": "Run",
+    "Application.CondOp2.executor": "Run",
+    "Application.CondOpEx.executor": "Run",
+    "Application.Distance.executor": "Run",
+    "Application.Dollar.executor": "Run",
+    "Application.EvenOddEx.executor": "Run",
+    "Application.Grade.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.If1.executor": "Run",
     "Application.If2.executor": "Run",
@@ -58,6 +70,8 @@
     "Application.Operator3.executor": "Run",
     "Application.OperatorAdd1.executor": "Run",
     "Application.OperatorAdd2.executor": "Run",
+    "Application.Rating.executor": "Run",
+    "Application.ScoreEx.executor": "Run",
     "Application.Switch1.executor": "Run",
     "Application.Switch2.executor": "Run",
     "Application.Switch3.executor": "Run",
@@ -91,13 +105,13 @@
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Switch4">
-    <configuration name="If6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.If6" />
+  <component name="RunManager" selected="Application.EvenOddEx">
+    <configuration name="CondOpEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.CondOpEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.Switch1" />
+    <configuration name="Dollar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Dollar" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.Switch2" />
+    <configuration name="EvenOddEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.EvenOddEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.Switch3" />
+    <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Grade" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.Switch4" />
+    <configuration name="Rating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Rating" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Switch4" />
-        <item itemvalue="Application.Switch3" />
-        <item itemvalue="Application.Switch2" />
-        <item itemvalue="Application.Switch1" />
-        <item itemvalue="Application.If6" />
+        <item itemvalue="Application.EvenOddEx" />
+        <item itemvalue="Application.CondOpEx" />
+        <item itemvalue="Application.Grade" />
+        <item itemvalue="Application.Rating" />
+        <item itemvalue="Application.Dollar" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +198,7 @@
       <updated>1705207389446</updated>
       <workItem from="1705207390480" duration="11006000" />
       <workItem from="1705324704265" duration="2025000" />
-      <workItem from="1705410624351" duration="915000" />
+      <workItem from="1705410624351" duration="3814000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -274,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705326494337</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="스위치문 공부">
+      <option name="closed" value="true" />
+      <created>1705411650537</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705411650537</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +314,8 @@
     <MESSAGE value="비교 연산자" />
     <MESSAGE value="연산자 공부 및 문제풀이" />
     <MESSAGE value="if문과 else if문" />
-    <option name="LAST_COMMIT_MESSAGE" value="if문과 else if문" />
+    <MESSAGE value="스위치문 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="스위치문 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
