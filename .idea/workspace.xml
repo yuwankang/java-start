@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="Scanner 문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/array/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayRef1.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="배열 시작">
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayRef2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayRef3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ArrayRef1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayRef1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,8 @@
   "keyToString": {
     "Application.Array1.executor": "Run",
     "Application.ArrayRef1.executor": "Run",
+    "Application.ArrayRef2.executor": "Run",
+    "Application.ArrayRef3.executor": "Run",
     "Application.Assign1.executor": "Run",
     "Application.Break1.executor": "Run",
     "Application.Break2.executor": "Run",
@@ -147,7 +150,7 @@
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayRef1">
+  <component name="RunManager" selected="Application.ArrayRef3">
     <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.Array1" />
       <module name="java-start" />
@@ -174,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerWhileEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scanner.ex.ScannerWhileEx2" />
+    <configuration name="ArrayRef2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayRef2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scanner.ex.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerWhileEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scanner.ex.ScannerWhileEx3" />
+    <configuration name="ArrayRef3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayRef3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scanner.ex.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayRef3" />
+        <item itemvalue="Application.ArrayRef2" />
         <item itemvalue="Application.ArrayRef1" />
         <item itemvalue="Application.Array1" />
         <item itemvalue="Application.ScannerWhileEx4" />
-        <item itemvalue="Application.ScannerWhileEx3" />
-        <item itemvalue="Application.ScannerWhileEx2" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,8 @@
       <workItem from="1705584099692" duration="3939000" />
       <workItem from="1705929587171" duration="2864000" />
       <workItem from="1706102870601" duration="4842000" />
-      <workItem from="1706444856504" duration="4040000" />
+      <workItem from="1706444856504" duration="4655000" />
+      <workItem from="1706534213322" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -400,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706449482673</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="배열 시작">
+      <option name="closed" value="true" />
+      <created>1706452768265</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706452768265</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +438,8 @@
     <MESSAGE value="계산과 형변환" />
     <MESSAGE value="Scanner와 반복문" />
     <MESSAGE value="Scanner 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner 문제풀이" />
+    <MESSAGE value="배열 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열 시작" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
