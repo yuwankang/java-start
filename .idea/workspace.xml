@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="2차원 배열 리팩토링1">
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayDi3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayDi4.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="2차원 배열 리팩토링2">
+      <change afterPath="$PROJECT_DIR$/src/array/EnhancedFor1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +63,7 @@
     "Application.DoWhile1.executor": "Run",
     "Application.DoWhile2.executor": "Run",
     "Application.Dollar.executor": "Run",
+    "Application.EnhancedFor1.executor": "Run",
     "Application.EvenOddEx.executor": "Run",
     "Application.For1.executor": "Run",
     "Application.For2.executor": "Run",
@@ -154,20 +154,7 @@
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayDi4">
-    <configuration name="ArrayDi0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayDi0" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EnhancedFor1">
     <configuration name="ArrayDi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ArrayDi1" />
       <module name="java-start" />
@@ -220,13 +207,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnhancedFor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.EnhancedFor1" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnhancedFor1" />
         <item itemvalue="Application.ArrayDi4" />
         <item itemvalue="Application.ArrayDi3" />
         <item itemvalue="Application.ArrayDi2" />
         <item itemvalue="Application.ArrayDi1" />
-        <item itemvalue="Application.ArrayDi0" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,7 @@
       <workItem from="1706102870601" duration="4842000" />
       <workItem from="1706444856504" duration="4655000" />
       <workItem from="1706534213322" duration="2823000" />
-      <workItem from="1706626269992" duration="751000" />
+      <workItem from="1706626269992" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -433,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706537041573</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2차원 배열 리팩토링2">
+      <option name="closed" value="true" />
+      <created>1706627150042</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706627150042</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +470,8 @@
     <MESSAGE value="배열 시작" />
     <MESSAGE value="배열 리팩토링" />
     <MESSAGE value="2차원 배열 리팩토링1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2차원 배열 리팩토링1" />
+    <MESSAGE value="2차원 배열 리팩토링2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2차원 배열 리팩토링2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
