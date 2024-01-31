@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="2차원 배열 리팩토링2">
-      <change afterPath="$PROJECT_DIR$/src/array/EnhancedFor1.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="향상된 for문&#10;for-each문">
+      <change afterPath="$PROJECT_DIR$/src/array/ex/Array1Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/Array1Ex1Ref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ex/ProductAdminEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -36,11 +46,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array1.executor": "Run",
+    "Application.Array1Ex1.executor": "Run",
     "Application.ArrayDi0.executor": "Run",
     "Application.ArrayDi1.executor": "Run",
     "Application.ArrayDi2.executor": "Run",
     "Application.ArrayDi3.executor": "Run",
     "Application.ArrayDi4.executor": "Run",
+    "Application.ArrayEx2.executor": "Run",
+    "Application.ArrayEx3.executor": "Run",
+    "Application.ArrayEx4.executor": "Run",
+    "Application.ArrayEx5.executor": "Run",
+    "Application.ArrayEx6.executor": "Run",
+    "Application.ArrayEx7.executor": "Run",
+    "Application.ArrayEx8.executor": "Run",
     "Application.ArrayRef1.executor": "Run",
     "Application.ArrayRef2.executor": "Run",
     "Application.ArrayRef3.executor": "Debug",
@@ -91,6 +109,7 @@
     "Application.Operator3.executor": "Run",
     "Application.OperatorAdd1.executor": "Run",
     "Application.OperatorAdd2.executor": "Run",
+    "Application.ProductAdminEx.executor": "Run",
     "Application.Rating.executor": "Run",
     "Application.Scanner1.executor": "Run",
     "Application.Scanner2.executor": "Run",
@@ -148,19 +167,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array.ex" />
       <recent name="array" />
       <recent name="scope" />
       <recent name="loop" />
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnhancedFor1">
-    <configuration name="ArrayDi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayDi1" />
+  <component name="RunManager" selected="Application.ProductAdminEx">
+    <configuration name="ArrayEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx5" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayDi2" />
+    <configuration name="ArrayEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx6" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDi3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayDi3" />
+    <configuration name="ArrayEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx7" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDi4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayDi4" />
+    <configuration name="ArrayEx8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx8" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedFor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.EnhancedFor1" />
+    <configuration name="ProductAdminEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ex.ProductAdminEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnhancedFor1" />
-        <item itemvalue="Application.ArrayDi4" />
-        <item itemvalue="Application.ArrayDi3" />
-        <item itemvalue="Application.ArrayDi2" />
-        <item itemvalue="Application.ArrayDi1" />
+        <item itemvalue="Application.ProductAdminEx" />
+        <item itemvalue="Application.ArrayEx8" />
+        <item itemvalue="Application.ArrayEx7" />
+        <item itemvalue="Application.ArrayEx6" />
+        <item itemvalue="Application.ArrayEx5" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +275,8 @@
       <workItem from="1706102870601" duration="4842000" />
       <workItem from="1706444856504" duration="4655000" />
       <workItem from="1706534213322" duration="2823000" />
-      <workItem from="1706626269992" duration="1081000" />
+      <workItem from="1706626269992" duration="1384000" />
+      <workItem from="1706714323486" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -441,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706627150042</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="향상된 for문&#10;for-each문">
+      <option name="closed" value="true" />
+      <created>1706627651940</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706627651940</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +500,8 @@
     <MESSAGE value="배열 리팩토링" />
     <MESSAGE value="2차원 배열 리팩토링1" />
     <MESSAGE value="2차원 배열 리팩토링2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2차원 배열 리팩토링2" />
+    <MESSAGE value="향상된 for문&#10;for-each문" />
+    <option name="LAST_COMMIT_MESSAGE" value="향상된 for문&#10;for-each문" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
