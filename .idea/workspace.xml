@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="향상된 for문&#10;for-each문">
-      <change afterPath="$PROJECT_DIR$/src/array/ex/Array1Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/Array1Ex1Ref.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ArrayEx8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ex/ProductAdminEx.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="배열 문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/method/Method1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Method1Ref.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +90,8 @@
     "Application.Logical1.executor": "Run",
     "Application.Logical2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Method1.executor": "Run",
+    "Application.Method1Ref.executor": "Run",
     "Application.Nested1.executor": "Run",
     "Application.NestedEx1.executor": "Run",
     "Application.NestedEx2.executor": "Run",
@@ -167,40 +161,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="method" />
       <recent name="array.ex" />
       <recent name="array" />
       <recent name="scope" />
       <recent name="loop" />
-      <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductAdminEx">
-    <configuration name="ArrayEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx5" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx6" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Method1Ref">
     <configuration name="ArrayEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx7" />
       <module name="java-start" />
@@ -227,6 +195,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Method1" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Method1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Method1Ref" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductAdminEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ex.ProductAdminEx" />
       <module name="java-start" />
@@ -242,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Method1Ref" />
+        <item itemvalue="Application.Method1" />
         <item itemvalue="Application.ProductAdminEx" />
         <item itemvalue="Application.ArrayEx8" />
         <item itemvalue="Application.ArrayEx7" />
-        <item itemvalue="Application.ArrayEx6" />
-        <item itemvalue="Application.ArrayEx5" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +270,9 @@
       <workItem from="1706444856504" duration="4655000" />
       <workItem from="1706534213322" duration="2823000" />
       <workItem from="1706626269992" duration="1384000" />
-      <workItem from="1706714323486" duration="2623000" />
+      <workItem from="1706714323486" duration="2754000" />
+      <workItem from="1706795609389" duration="1259000" />
+      <workItem from="1706797092889" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -470,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706627651940</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="배열 문제 풀이">
+      <option name="closed" value="true" />
+      <created>1706717075702</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706717075702</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +505,8 @@
     <MESSAGE value="2차원 배열 리팩토링1" />
     <MESSAGE value="2차원 배열 리팩토링2" />
     <MESSAGE value="향상된 for문&#10;for-each문" />
-    <option name="LAST_COMMIT_MESSAGE" value="향상된 for문&#10;for-each문" />
+    <MESSAGE value="배열 문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열 문제 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
