@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="배열 문제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/method/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/Method1Ref.java" afterDir="false" />
+    <list default="true" id="2dc3aaed-3f3e-495b-82af-dfa11cb3c4a5" name="Changes" comment="Method 공부 인수 매개변수">
+      <change afterPath="$PROJECT_DIR$/src/method/Method2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodCasting1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodCasting2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodValue0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodValue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodValue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/MethodValue3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Methodreturn1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Methodreturn2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +99,15 @@
     "Application.Main.executor": "Run",
     "Application.Method1.executor": "Run",
     "Application.Method1Ref.executor": "Run",
+    "Application.Method2.executor": "Run",
+    "Application.MethodCasting1.executor": "Run",
+    "Application.MethodCasting2.executor": "Run",
+    "Application.MethodValue0.executor": "Run",
+    "Application.MethodValue1.executor": "Run",
+    "Application.MethodValue2.executor": "Run",
+    "Application.MethodValue3.executor": "Run",
+    "Application.Methodreturn1.executor": "Run",
+    "Application.Methodreturn2.executor": "Run",
     "Application.Nested1.executor": "Run",
     "Application.NestedEx1.executor": "Run",
     "Application.NestedEx2.executor": "Run",
@@ -168,35 +184,9 @@
       <recent name="loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method1Ref">
-    <configuration name="ArrayEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx7" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayEx8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ArrayEx8" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.Method1" />
+  <component name="RunManager" selected="Application.MethodCasting2">
+    <configuration name="MethodCasting1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodCasting1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.Method1Ref" />
+    <configuration name="MethodCasting2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodCasting2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -221,12 +211,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductAdminEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ex.ProductAdminEx" />
+    <configuration name="MethodValue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodValue1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.ex.*" />
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodValue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodValue2" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodValue3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodValue3" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Method1Ref" />
-        <item itemvalue="Application.Method1" />
-        <item itemvalue="Application.ProductAdminEx" />
-        <item itemvalue="Application.ArrayEx8" />
-        <item itemvalue="Application.ArrayEx7" />
+        <item itemvalue="Application.MethodCasting2" />
+        <item itemvalue="Application.MethodCasting1" />
+        <item itemvalue="Application.MethodValue3" />
+        <item itemvalue="Application.MethodValue2" />
+        <item itemvalue="Application.MethodValue1" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +288,8 @@
       <workItem from="1706626269992" duration="1384000" />
       <workItem from="1706714323486" duration="2754000" />
       <workItem from="1706795609389" duration="1259000" />
-      <workItem from="1706797092889" duration="650000" />
+      <workItem from="1706797092889" duration="2124000" />
+      <workItem from="1706884454942" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="java - ex">
       <option name="closed" value="true" />
@@ -474,14 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706717075702</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Method 공부 인수 매개변수">
+      <option name="closed" value="true" />
+      <created>1706799640882</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706799640882</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java - ex" />
     <MESSAGE value="변수 선언 및 초기화" />
     <MESSAGE value="변수 명명 과 규칙" />
     <MESSAGE value="변수 문제풀이" />
@@ -506,7 +530,8 @@
     <MESSAGE value="2차원 배열 리팩토링2" />
     <MESSAGE value="향상된 for문&#10;for-each문" />
     <MESSAGE value="배열 문제 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="배열 문제 풀이" />
+    <MESSAGE value="Method 공부 인수 매개변수" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method 공부 인수 매개변수" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
